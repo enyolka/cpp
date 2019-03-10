@@ -66,10 +66,9 @@ std::string reverse_string2(std::string str, int start, int end){
 	return str;
 }
 
-std::string reverse_string3(std::string str){
-
+/*std::string reverse_string3(std::string str){
 	return str;
-}
+}*/
 
 bool is_palindrome(std::string str){
 	for(int i = 0; i <= str.length()/2; i++){
