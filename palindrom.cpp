@@ -24,14 +24,14 @@ int main(int argc, char** argv){
 		case 1:
 			//std::reverse(str.begin(), str.end());
 			str = reverse_string2(str, start, end);
-    		std::cout << str << std::endl;
+			std::cout << str << std::endl;
 			break;
 		case 2:
 			if(is_palindrome(str)) 
 				std::cout << "To jest palindrom\n";
 			else
 				std::cout << "To nie jest palindrom\n";
-    		break;
+			break;
 		case 3:
 			close = 1;
 		default:
