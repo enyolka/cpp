@@ -14,7 +14,7 @@ int main(int argc, char** argv){
 	
 	tab = Array2d(rows, columns);
 	printArray(tab, rows, columns);
-	DeleteArrat(tab, rows);
+	DeleteArray(tab, rows);
 	
 	return 0;
 }
@@ -42,7 +42,7 @@ void printArray(int **arr, int rows, int columns){
 
 void DeleteArray(int **arr, int rows){
 	for(int i = 0; i < rows; i++)
-		delete [] arr[j];
+		delete [] arr[i];
 	delete [] arr;
 }
 
