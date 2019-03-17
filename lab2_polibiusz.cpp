@@ -45,6 +45,7 @@ int main(int argc, char** argv){;
 		case 4:
 			closed = 1;
 		default:
+			std::cout << "\n Zadna z opcji nie pasuje do wybranej przez ciebie \n";
 			break;
 		}
 	}
