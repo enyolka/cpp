@@ -7,22 +7,7 @@
 
 struct ForwardList{
 	int data;
-	ForwardList *next;
-	
-/*	ForwardList *CreateNode(int value){
-		ForwardList* new_elem = new ForwardList;
-        new_elem -> data = value ;
-        new_elem -> next = NULL;
- 
-        return new_elem;
-	}
-	
-    void Append(ForwardList *list, int value){
-        while(list -> next != NULL)
-            list = list -> next;
-        ForwardList *newElement = CreateNode(value);
-        list -> next = newElement;
-    } */
+	ForwardList *next;	
 };
 
 void PushFront(ForwardList*& head, ForwardList*& tail, int value);
