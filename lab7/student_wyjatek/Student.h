@@ -16,8 +16,8 @@ public:
     Student() = default;
     Student(std::string name_, int age_, std::string program_):name(name_), age(age_), program(program_) {}
     ~Student() = default;
-    //friend std::ostream& operator <<(std::ostream&, const Student&);
-    //friend std::istream& operator >>(std::istream&, Student&);
+    friend std::ostream& operator <<(std::ostream&, const Student&);
+    friend std::istream& operator >>(std::istream&, Student&);
 
     void ValidateStudent();
 };

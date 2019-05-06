@@ -4,19 +4,19 @@
 
 #include "Student.h"
 
-/*std::ostream& operator <<(std::ostream& output, const Student& other){
-    output << "ID: " << other.id << " Name: " << other.name << " Program: "<< other.program << std::endl;
+std::ostream& operator <<(std::ostream& output, const Student& other){
+    output << "Name: " << other.name << "\t Age: " << other.age << "\t Program: "<< other.program << std::endl;
     return output;
 }
 std::istream& operator >>(std::istream& input, Student& other){
-    std::cout << " Enter id: ";
-    input >> other.id;
     std::cout << " Enter name: ";
     input >> other.name;
+    std::cout << " Enter age: ";
+    input >> other.age;
     std::cout << " Enter program: ";
     input >> other.program;
     return input;
-}*/
+}
 
 
 void Student::ValidateStudent() {
