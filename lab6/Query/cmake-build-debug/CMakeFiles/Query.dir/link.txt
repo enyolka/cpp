@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/Query.dir/main.cpp.o CMakeFiles/Query.dir/Query.cpp.o CMakeFiles/Query.dir/Student.cpp.o CMakeFiles/Query.dir/StudentRepository.cpp.o  -o Query 

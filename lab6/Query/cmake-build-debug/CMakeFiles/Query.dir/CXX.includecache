@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/emilia/CLionProjects/Query/Query.h
+iostream
+-
+memory
+-
+Student.h
+/home/emilia/CLionProjects/Query/Student.h
+
+/home/emilia/CLionProjects/Query/Student.h
+iostream
+-
+string
+-
+vector
+-
+
+/home/emilia/CLionProjects/Query/StudentRepository.h
+iostream
+-
+Student.h
+/home/emilia/CLionProjects/Query/Student.h
+Query.h
+/home/emilia/CLionProjects/Query/Query.h
+
+/home/emilia/CLionProjects/Query/main.cpp
+iostream
+-
+vector
+-
+memory
+-
+Student.h
+/home/emilia/CLionProjects/Query/Student.h
+Query.h
+/home/emilia/CLionProjects/Query/Query.h
+StudentRepository.h
+/home/emilia/CLionProjects/Query/StudentRepository.h
+
