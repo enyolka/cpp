@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/emilia/CLionProjects/Serializable/Academia.cpp
+Academia.h
+/home/emilia/CLionProjects/Serializable/Academia.h
+
+/home/emilia/CLionProjects/Serializable/Academia.h
+Serializer.h
+/home/emilia/CLionProjects/Serializable/Serializer.h
+
+/home/emilia/CLionProjects/Serializable/Serializer.cpp
+Serializer.h
+/home/emilia/CLionProjects/Serializable/Serializer.h
+
+/home/emilia/CLionProjects/Serializable/Serializer.h
+iostream
+-
+string
+-
+map
+-
+sstream
+-
+
+/home/emilia/CLionProjects/Serializable/main.cpp
+iostream
+-
+string
+-
+Serializer.h
+/home/emilia/CLionProjects/Serializable/Serializer.h
+Academia.h
+/home/emilia/CLionProjects/Serializable/Academia.h
+
