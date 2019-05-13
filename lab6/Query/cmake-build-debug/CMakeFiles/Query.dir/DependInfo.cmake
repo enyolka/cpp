@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/emilia/CLionProjects/Query/Query.cpp" "/home/emilia/CLionProjects/Query/cmake-build-debug/CMakeFiles/Query.dir/Query.cpp.o"
-  "/home/emilia/CLionProjects/Query/Student.cpp" "/home/emilia/CLionProjects/Query/cmake-build-debug/CMakeFiles/Query.dir/Student.cpp.o"
-  "/home/emilia/CLionProjects/Query/StudentRepository.cpp" "/home/emilia/CLionProjects/Query/cmake-build-debug/CMakeFiles/Query.dir/StudentRepository.cpp.o"
-  "/home/emilia/CLionProjects/Query/main.cpp" "/home/emilia/CLionProjects/Query/cmake-build-debug/CMakeFiles/Query.dir/main.cpp.o"
+  "/home/emilia/Dokumenty/CPP/cpp/lab6/Query/Query.cpp" "/home/emilia/Dokumenty/CPP/cpp/lab6/Query/cmake-build-debug/CMakeFiles/Query.dir/Query.cpp.o"
+  "/home/emilia/Dokumenty/CPP/cpp/lab6/Query/Student.cpp" "/home/emilia/Dokumenty/CPP/cpp/lab6/Query/cmake-build-debug/CMakeFiles/Query.dir/Student.cpp.o"
+  "/home/emilia/Dokumenty/CPP/cpp/lab6/Query/StudentRepository.cpp" "/home/emilia/Dokumenty/CPP/cpp/lab6/Query/cmake-build-debug/CMakeFiles/Query.dir/StudentRepository.cpp.o"
+  "/home/emilia/Dokumenty/CPP/cpp/lab6/Query/main.cpp" "/home/emilia/Dokumenty/CPP/cpp/lab6/Query/cmake-build-debug/CMakeFiles/Query.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

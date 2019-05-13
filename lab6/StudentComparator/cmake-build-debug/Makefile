@@ -48,10 +48,10 @@ RM = /snap/clion/70/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emilia/Dokumenty/CPP/cpp/lab6/Query
+CMAKE_SOURCE_DIR = /home/emilia/CLionProjects/StudentComparator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emilia/Dokumenty/CPP/cpp/lab6/Query/cmake-build-debug
+CMAKE_BINARY_DIR = /home/emilia/CLionProjects/StudentComparator/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emilia/Dokumenty/CPP/cpp/lab6/Query/cmake-build-debug/CMakeFiles /home/emilia/Dokumenty/CPP/cpp/lab6/Query/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emilia/CLionProjects/StudentComparator/cmake-build-debug/CMakeFiles /home/emilia/CLionProjects/StudentComparator/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emilia/Dokumenty/CPP/cpp/lab6/Query/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emilia/CLionProjects/StudentComparator/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Query
+# Target rules for targets named StudentComparator
 
 # Build rule for target.
-Query: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Query
-.PHONY : Query
+StudentComparator: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 StudentComparator
+.PHONY : StudentComparator
 
 # fast build rule for target.
-Query/fast:
-	$(MAKE) -f CMakeFiles/Query.dir/build.make CMakeFiles/Query.dir/build
-.PHONY : Query/fast
-
-Query.o: Query.cpp.o
-
-.PHONY : Query.o
-
-# target to build an object file
-Query.cpp.o:
-	$(MAKE) -f CMakeFiles/Query.dir/build.make CMakeFiles/Query.dir/Query.cpp.o
-.PHONY : Query.cpp.o
-
-Query.i: Query.cpp.i
-
-.PHONY : Query.i
-
-# target to preprocess a source file
-Query.cpp.i:
-	$(MAKE) -f CMakeFiles/Query.dir/build.make CMakeFiles/Query.dir/Query.cpp.i
-.PHONY : Query.cpp.i
-
-Query.s: Query.cpp.s
-
-.PHONY : Query.s
-
-# target to generate assembly for a file
-Query.cpp.s:
-	$(MAKE) -f CMakeFiles/Query.dir/build.make CMakeFiles/Query.dir/Query.cpp.s
-.PHONY : Query.cpp.s
+StudentComparator/fast:
+	$(MAKE) -f CMakeFiles/StudentComparator.dir/build.make CMakeFiles/StudentComparator.dir/build
+.PHONY : StudentComparator/fast
 
 Student.o: Student.cpp.o
 
@@ -156,7 +129,7 @@ Student.o: Student.cpp.o
 
 # target to build an object file
 Student.cpp.o:
-	$(MAKE) -f CMakeFiles/Query.dir/build.make CMakeFiles/Query.dir/Student.cpp.o
+	$(MAKE) -f CMakeFiles/StudentComparator.dir/build.make CMakeFiles/StudentComparator.dir/Student.cpp.o
 .PHONY : Student.cpp.o
 
 Student.i: Student.cpp.i
@@ -165,7 +138,7 @@ Student.i: Student.cpp.i
 
 # target to preprocess a source file
 Student.cpp.i:
-	$(MAKE) -f CMakeFiles/Query.dir/build.make CMakeFiles/Query.dir/Student.cpp.i
+	$(MAKE) -f CMakeFiles/StudentComparator.dir/build.make CMakeFiles/StudentComparator.dir/Student.cpp.i
 .PHONY : Student.cpp.i
 
 Student.s: Student.cpp.s
@@ -174,8 +147,35 @@ Student.s: Student.cpp.s
 
 # target to generate assembly for a file
 Student.cpp.s:
-	$(MAKE) -f CMakeFiles/Query.dir/build.make CMakeFiles/Query.dir/Student.cpp.s
+	$(MAKE) -f CMakeFiles/StudentComparator.dir/build.make CMakeFiles/StudentComparator.dir/Student.cpp.s
 .PHONY : Student.cpp.s
+
+StudentComparator.o: StudentComparator.cpp.o
+
+.PHONY : StudentComparator.o
+
+# target to build an object file
+StudentComparator.cpp.o:
+	$(MAKE) -f CMakeFiles/StudentComparator.dir/build.make CMakeFiles/StudentComparator.dir/StudentComparator.cpp.o
+.PHONY : StudentComparator.cpp.o
+
+StudentComparator.i: StudentComparator.cpp.i
+
+.PHONY : StudentComparator.i
+
+# target to preprocess a source file
+StudentComparator.cpp.i:
+	$(MAKE) -f CMakeFiles/StudentComparator.dir/build.make CMakeFiles/StudentComparator.dir/StudentComparator.cpp.i
+.PHONY : StudentComparator.cpp.i
+
+StudentComparator.s: StudentComparator.cpp.s
+
+.PHONY : StudentComparator.s
+
+# target to generate assembly for a file
+StudentComparator.cpp.s:
+	$(MAKE) -f CMakeFiles/StudentComparator.dir/build.make CMakeFiles/StudentComparator.dir/StudentComparator.cpp.s
+.PHONY : StudentComparator.cpp.s
 
 StudentRepository.o: StudentRepository.cpp.o
 
@@ -183,7 +183,7 @@ StudentRepository.o: StudentRepository.cpp.o
 
 # target to build an object file
 StudentRepository.cpp.o:
-	$(MAKE) -f CMakeFiles/Query.dir/build.make CMakeFiles/Query.dir/StudentRepository.cpp.o
+	$(MAKE) -f CMakeFiles/StudentComparator.dir/build.make CMakeFiles/StudentComparator.dir/StudentRepository.cpp.o
 .PHONY : StudentRepository.cpp.o
 
 StudentRepository.i: StudentRepository.cpp.i
@@ -192,7 +192,7 @@ StudentRepository.i: StudentRepository.cpp.i
 
 # target to preprocess a source file
 StudentRepository.cpp.i:
-	$(MAKE) -f CMakeFiles/Query.dir/build.make CMakeFiles/Query.dir/StudentRepository.cpp.i
+	$(MAKE) -f CMakeFiles/StudentComparator.dir/build.make CMakeFiles/StudentComparator.dir/StudentRepository.cpp.i
 .PHONY : StudentRepository.cpp.i
 
 StudentRepository.s: StudentRepository.cpp.s
@@ -201,7 +201,7 @@ StudentRepository.s: StudentRepository.cpp.s
 
 # target to generate assembly for a file
 StudentRepository.cpp.s:
-	$(MAKE) -f CMakeFiles/Query.dir/build.make CMakeFiles/Query.dir/StudentRepository.cpp.s
+	$(MAKE) -f CMakeFiles/StudentComparator.dir/build.make CMakeFiles/StudentComparator.dir/StudentRepository.cpp.s
 .PHONY : StudentRepository.cpp.s
 
 main.o: main.cpp.o
@@ -210,7 +210,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) -f CMakeFiles/Query.dir/build.make CMakeFiles/Query.dir/main.cpp.o
+	$(MAKE) -f CMakeFiles/StudentComparator.dir/build.make CMakeFiles/StudentComparator.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -219,7 +219,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) -f CMakeFiles/Query.dir/build.make CMakeFiles/Query.dir/main.cpp.i
+	$(MAKE) -f CMakeFiles/StudentComparator.dir/build.make CMakeFiles/StudentComparator.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -228,7 +228,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) -f CMakeFiles/Query.dir/build.make CMakeFiles/Query.dir/main.cpp.s
+	$(MAKE) -f CMakeFiles/StudentComparator.dir/build.make CMakeFiles/StudentComparator.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -238,14 +238,14 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Query"
+	@echo "... StudentComparator"
 	@echo "... edit_cache"
-	@echo "... Query.o"
-	@echo "... Query.i"
-	@echo "... Query.s"
 	@echo "... Student.o"
 	@echo "... Student.i"
 	@echo "... Student.s"
+	@echo "... StudentComparator.o"
+	@echo "... StudentComparator.i"
+	@echo "... StudentComparator.s"
 	@echo "... StudentRepository.o"
 	@echo "... StudentRepository.i"
 	@echo "... StudentRepository.s"

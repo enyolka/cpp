@@ -59,45 +59,45 @@ RM = /snap/clion/70/bin/cmake/linux/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/emilia/Dokumenty/CPP/cpp/lab6/Query
+CMAKE_SOURCE_DIR = /home/emilia/CLionProjects/StudentComparator
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/emilia/Dokumenty/CPP/cpp/lab6/Query/cmake-build-debug
+CMAKE_BINARY_DIR = /home/emilia/CLionProjects/StudentComparator/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/Query.dir
+# Target rules for target CMakeFiles/StudentComparator.dir
 
 # All Build rule for target.
-CMakeFiles/Query.dir/all:
-	$(MAKE) -f CMakeFiles/Query.dir/build.make CMakeFiles/Query.dir/depend
-	$(MAKE) -f CMakeFiles/Query.dir/build.make CMakeFiles/Query.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emilia/Dokumenty/CPP/cpp/lab6/Query/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target Query"
-.PHONY : CMakeFiles/Query.dir/all
+CMakeFiles/StudentComparator.dir/all:
+	$(MAKE) -f CMakeFiles/StudentComparator.dir/build.make CMakeFiles/StudentComparator.dir/depend
+	$(MAKE) -f CMakeFiles/StudentComparator.dir/build.make CMakeFiles/StudentComparator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/emilia/CLionProjects/StudentComparator/cmake-build-debug/CMakeFiles --progress-num=1,2,3,4,5 "Built target StudentComparator"
+.PHONY : CMakeFiles/StudentComparator.dir/all
 
 # Include target in all.
-all: CMakeFiles/Query.dir/all
+all: CMakeFiles/StudentComparator.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Query.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emilia/Dokumenty/CPP/cpp/lab6/Query/cmake-build-debug/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Query.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/emilia/Dokumenty/CPP/cpp/lab6/Query/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Query.dir/rule
+CMakeFiles/StudentComparator.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emilia/CLionProjects/StudentComparator/cmake-build-debug/CMakeFiles 5
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/StudentComparator.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/emilia/CLionProjects/StudentComparator/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/StudentComparator.dir/rule
 
 # Convenience name for target.
-Query: CMakeFiles/Query.dir/rule
+StudentComparator: CMakeFiles/StudentComparator.dir/rule
 
-.PHONY : Query
-
-# clean rule for target.
-CMakeFiles/Query.dir/clean:
-	$(MAKE) -f CMakeFiles/Query.dir/build.make CMakeFiles/Query.dir/clean
-.PHONY : CMakeFiles/Query.dir/clean
+.PHONY : StudentComparator
 
 # clean rule for target.
-clean: CMakeFiles/Query.dir/clean
+CMakeFiles/StudentComparator.dir/clean:
+	$(MAKE) -f CMakeFiles/StudentComparator.dir/build.make CMakeFiles/StudentComparator.dir/clean
+.PHONY : CMakeFiles/StudentComparator.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/StudentComparator.dir/clean
 
 .PHONY : clean
 
