@@ -1,0 +1,3 @@
+/home/emilia/CLionProjects/MovieSubtitles/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/emilia/CLionProjects/MovieSubtitles/cmake-build-debug/CMakeFiles/MovieSubtitles.dir
+/home/emilia/CLionProjects/MovieSubtitles/cmake-build-debug/CMakeFiles/edit_cache.dir

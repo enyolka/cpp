@@ -1,0 +1,3 @@
+{25}{33} Napisany test
+{16}{45} Kolejna linijka tego tekstu!
+{99}{56} Co tu się nie dzieje?!

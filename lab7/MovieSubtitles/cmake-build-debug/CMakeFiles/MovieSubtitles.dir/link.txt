@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/MovieSubtitles.dir/main.cpp.o CMakeFiles/MovieSubtitles.dir/MovieSubtitles.cpp.o CMakeFiles/MovieSubtitles.dir/Exceptions.cpp.o  -o MovieSubtitles 
