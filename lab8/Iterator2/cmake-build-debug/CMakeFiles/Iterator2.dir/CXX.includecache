@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/emilia/CLionProjects/Iterator2/Iterator.cpp
+Iterator.h
+/home/emilia/CLionProjects/Iterator2/Iterator.h
+
+/home/emilia/CLionProjects/Iterator2/Iterator.h
+Vector.h
+/home/emilia/CLionProjects/Iterator2/Vector.h
+
+/home/emilia/CLionProjects/Iterator2/Vector.cpp
+Vector.h
+/home/emilia/CLionProjects/Iterator2/Vector.h
+
+/home/emilia/CLionProjects/Iterator2/Vector.h
+iostream
+-
+
+/home/emilia/CLionProjects/Iterator2/main.cpp
+iostream
+-
+Vector.h
+/home/emilia/CLionProjects/Iterator2/Vector.h
+Iterator.h
+/home/emilia/CLionProjects/Iterator2/Iterator.h
+
