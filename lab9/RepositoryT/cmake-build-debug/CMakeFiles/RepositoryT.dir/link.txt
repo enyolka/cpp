@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/RepositoryT.dir/main.cpp.o CMakeFiles/RepositoryT.dir/Repository.cpp.o CMakeFiles/RepositoryT.dir/Student.cpp.o CMakeFiles/RepositoryT.dir/Query.cpp.o  -o RepositoryT 
